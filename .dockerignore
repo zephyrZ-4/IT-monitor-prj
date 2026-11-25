@@ -1,0 +1,11 @@
+node_modules
+.next
+.env
+.env.local
+example_datas
+release
+*.log
+*.tsbuildinfo
+*.tar
+*.tar.gz
+.git

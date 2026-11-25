@@ -1,0 +1,16 @@
+node_modules/
+.next/
+.env
+.env.local
+*.tsbuildinfo
+*.log
+dist/
+*.tar
+*.tar.gz
+example_datas/~$*
+
+# release 发版打包产物（压缩包、校验和、镜像与解压目录；文本模板除外）
+release/**/*.zip
+release/**/*.sha256
+release/**/cluster-monitor-*-linux-amd64/
+release/**/cluster-monitor-offline-*/
